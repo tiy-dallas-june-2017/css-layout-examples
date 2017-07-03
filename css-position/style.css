@@ -1,0 +1,49 @@
+body {
+  margin-top: 70px;
+}
+
+.first-relative {
+  position: relative;
+  left: -50px;
+  top: 20px;
+}
+
+.first-absolute {
+  background-color: pink;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.box-thing {
+  border: solid 1px #000;
+  padding: 50px;
+  position: relative;
+  width: 400px;
+}
+
+.chapter {
+  background-color: purple;
+  color: white;
+  font-size: 4em;
+  padding: 20px;
+  position: absolute;
+  right: -70px;
+  top: 20px;
+
+  text-align: center;
+  border-radius: 100%;
+  height: 70px;
+  padding: 30px;
+  width: 75px;
+}
+
+nav {
+  background-color: teal;
+  color: red;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  top: 0;
+}
